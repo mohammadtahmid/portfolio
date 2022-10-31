@@ -1,0 +1,80 @@
+body{
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 50px;
+}
+h2{
+  font-size: 40px;
+}
+.color_highlite{
+  color: orange;
+}
+
+.top_bannar{
+  background-image: url("img/banner.jpg");
+  background-repeat: no-repeat;
+}
+.dream_area{
+  background-image: url("img/banner.jpg");
+  background-repeat: no-repeat;
+}
+
+.width_half{
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.width_half img{
+  width: 100%;
+  border-radius: 50%;
+  padding: 20px;
+  height: 450px;
+  width: 450px;
+}
+.link_button{
+  text-decoration: none;
+  background-color: orange;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-image: linear-gradient(45deg, lightSalmon, tomato);
+}
+.link_button:hover{
+  color: black;
+  transition: 0.5s;
+}
+
+section{
+  height:500px;
+}
+
+.experience_area h2{
+  padding: 15px;
+}
+.single_experience{
+  box-shadow: 10px 10px 40px gray;
+  border: 5px;
+  height: 80%;
+}
+#full_stack{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightSalmon, tomato);
+  border-image-slice: 1;
+}
+
+#baby_web{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice:1 ;
+}
+footer{
+  text-align: center;
+  font-size: 12px;
+}
